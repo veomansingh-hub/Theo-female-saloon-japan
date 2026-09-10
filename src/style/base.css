@@ -21,9 +21,10 @@
   --dovetail: #928b81;
   --dovetail-lighter: #aba9a5;
 
-  --font-apercu: 'apercu', -apple-system, system-ui, BlinkMacSystemFont, 'Helvetica Neue',
-  'Helvetica', sans-serif;
-  --font-reckless: 'reckless', -apple-system, system-ui, BlinkMacSystemFont, 'Helvetica Neue',
+  --font-apercu: 'Jost', -apple-system, system-ui, BlinkMacSystemFont, 'Helvetica Neue',
+    'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+    'Segoe UI Symbol';
+  --font-reckless: 'Playfair Display', -apple-system, system-ui, BlinkMacSystemFont, 'Helvetica Neue',
   'Helvetica', sans-serif;
 
   --font-serif: var(--font-reckless);

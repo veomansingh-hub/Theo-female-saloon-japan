@@ -54,7 +54,7 @@ const Map = memo(({ onLoad: customOnLoad }: { onLoad?: (map: google.maps.Map) =>
           window.open(INFO.googlePlaceUrl, '_blank', 'noreferrer')
         }}
         label={{
-          text: 'Ana Hair',
+          text: 'Rose & Ivy Hair',
           color: '#233347',
           className: '-translate-y-[3rem] font-black !text-xl text-primary gm-ana-label',
         }}

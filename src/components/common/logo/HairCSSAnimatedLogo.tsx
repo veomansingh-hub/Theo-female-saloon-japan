@@ -5,92 +5,11 @@ import useCSSAnimatedSVGGeometryElementStroke from '@/lib/hooks/useCSSAnimatedSV
 
 const AnimatedLogoGroup = ({ triggered = false, delay = 0, nonScalingStroke = false, scaling = 1 }) => (
   <g>
-    <line
-      x1='0.5'
-      y1='0.5'
-      x2='0.5'
-      y2='77.5'
+    <path
+      d='M9.14 69.76L9.14 75.52L43.70 75.52L43.70 69.76L9.14 69.76M45.72 49.60L39.60 49.60L39.60 100L45.72 100L45.72 49.60M11.88 49.60L5.76 49.60L5.76 100L11.88 100L11.88 49.60M64.22 79.12L62.06 84.88L88.70 84.88L86.54 79.12L64.22 79.12M66.74 80.99L75.24 60.98L83.88 81.28L84.46 82.72L91.80 100L98.64 100L75.24 47.08L51.84 100L58.68 100L66.17 82.29L66.74 80.99M110.88 49.60L104.76 49.60L104.76 100L110.88 100L110.88 49.60M138.24 75.16L131.40 75.16L148.68 100L156.24 100L138.24 75.16M128.52 49.60L122.40 49.60L122.40 100L128.52 100L128.52 49.60M125.78 49.60L125.78 55L136.08 55Q139.32 55 141.80 56.15Q144.29 57.30 145.69 59.46Q147.10 61.62 147.10 64.72Q147.10 67.82 145.69 69.98Q144.29 72.14 141.80 73.29Q139.32 74.44 136.08 74.44L125.78 74.44L125.78 79.84L136.08 79.84Q140.98 79.84 144.83 78Q148.68 76.17 150.95 72.75Q153.22 69.33 153.22 64.72Q153.22 60.04 150.95 56.66Q148.68 53.27 144.83 51.44Q140.98 49.60 136.08 49.60'
       {...useCSSAnimatedSVGGeometryElementStroke({
         triggered,
         delay: delay + 50,
-        nonScalingStroke,
-        scaling,
-      })}
-    />
-    <line
-      x1='62.5'
-      y1='0.5'
-      x2='62.5'
-      y2='77.5'
-      {...useCSSAnimatedSVGGeometryElementStroke({
-        triggered,
-        delay: delay + 200,
-        nonScalingStroke,
-        scaling,
-      })}
-    />
-    <line
-      x1='0.5'
-      y1='35.5'
-      x2='62.5'
-      y2='35.5'
-      {...useCSSAnimatedSVGGeometryElementStroke({
-        triggered,
-        delay: delay + 400,
-        nonScalingStroke,
-        scaling,
-      })}
-    />
-    <polyline
-      points='169.5 77.5 133.5 1.5 95.5 77.5'
-      {...useCSSAnimatedSVGGeometryElementStroke({
-        triggered,
-        delay: delay + 600,
-        nonScalingStroke,
-        scaling,
-      })}
-    />
-    <line
-      x1='109.5'
-      y1='50.5'
-      x2='156.5'
-      y2='50.5'
-      {...useCSSAnimatedSVGGeometryElementStroke({
-        triggered,
-        delay: delay + 800,
-        nonScalingStroke,
-        scaling,
-      })}
-    />
-    <line
-      x1='202.5'
-      y1='0.5'
-      x2='202.5'
-      y2='77.5'
-      {...useCSSAnimatedSVGGeometryElementStroke({
-        triggered,
-        delay: delay + 1000,
-        nonScalingStroke,
-        scaling,
-      })}
-    />
-    <line
-      x1='303.5'
-      y1='77.5'
-      x2='277.5'
-      y2='43.5'
-      {...useCSSAnimatedSVGGeometryElementStroke({
-        triggered,
-        delay: delay + 1200,
-        nonScalingStroke,
-        scaling,
-      })}
-    />
-    <path
-      d='M243.5,43.5h37a59.2,59.2,0,0,0,10.8-1.11,30.82,30.82,0,0,0,7.75-2.49,13,13,0,0,0,4.57-3.78,12.86,12.86,0,0,0,2.25-4.59,23.91,23.91,0,0,0,.55-5.41v-8a22.91,22.91,0,0,0-.62-5.65,13,13,0,0,0-2.49-4.73,13.34,13.34,0,0,0-5.12-3.81,36.81,36.81,0,0,0-8.76-2.37A82.41,82.41,0,0,0,276.32.61L243,.5h.5v77'
-      {...useCSSAnimatedSVGGeometryElementStroke({
-        triggered,
-        delay: delay + 1400,
         nonScalingStroke,
         scaling,
       })}

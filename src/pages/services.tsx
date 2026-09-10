@@ -29,56 +29,33 @@ export default function ServicesPage() {
                       </h3>
                     </div>
                     <dl className={cn('grid grid-cols-7 gap-x-3')}>
-                      <dt className='col-span-3'>Cut</dt>
+                      <dt className='col-span-3'>Women's Cut & Finish</dt>
                       <dd className='italic text-center'></dd>
-                      <dd className='text-right col-span-3'>182.-</dd>
-                      <dt className='col-span-3'>Brushing</dt>
+                      <dd className='text-right col-span-3'>£95</dd>
+                      <dt className='col-span-3'>Blow Dry</dt>
                       <dd className='italic text-center'>{t('from')}</dd>
-                      <dd className='text-right col-span-3'>90.-</dd>
-                      <dt className='col-span-3'>Form</dt>
-                      <dd className='italic text-center'>{t('from')}</dd>
-                      <dd className='text-right col-span-3'>90.-</dd>
-                      <dt className='col-span-3'>Color</dt>
-                      <dd className='italic text-center'>{t('from')}</dd>
-                      <dd className='text-right col-span-3'>150.-</dd>
-                      <dt className='col-span-3'>Glossing</dt>
-                      <dd className='italic text-center'>{t('from')}</dd>
-                      <dd className='text-right col-span-3'>90.-</dd>
-                      <dt className='col-span-3'>Highlights</dt>
-                      <dd className='italic text-center'>{t('from')}</dd>
-                      <dd className='text-right col-span-3'>200.-</dd>
+                      <dd className='text-right col-span-3'>£55</dd>
                       <dt className='col-span-3'>Balayage</dt>
                       <dd className='italic text-center'>{t('from')}</dd>
-                      <dd className='text-right col-span-3'>200.-</dd>
-                      <dt className='col-span-3'>Intensive Care</dt>
+                      <dd className='text-right col-span-3'>£150</dd>
+                      <dt className='col-span-3'>Highlights</dt>
                       <dd className='italic text-center'>{t('from')}</dd>
-                      <dd className='text-right col-span-3'>30.-</dd>
-                      <dt className='col-span-3'>Olaplex</dt>
+                      <dd className='text-right col-span-3'>£130</dd>
+                      <dt className='col-span-3'>Colour</dt>
                       <dd className='italic text-center'>{t('from')}</dd>
-                      <dd className='text-right col-span-3'>40.-</dd>
-                      <dt className='col-span-3'>Keratin / BB</dt>
+                      <dd className='text-right col-span-3'>£90</dd>
+                      <dt className='col-span-3'>Gloss/Toner</dt>
+                      <dd className='italic text-center'>{t('from')}</dd>
+                      <dd className='text-right col-span-3'>£45</dd>
+                      <dt className='col-span-3'>Hair Treatments</dt>
+                      <dd className='italic text-center'>{t('from')}</dd>
+                      <dd className='text-right col-span-3'>£35</dd>
+                      <dt className='col-span-3'>Bridal Hair</dt>
                       <dd className='italic text-center'></dd>
                       <dd className='text-right col-span-3'>{t('cost_basis')}</dd>
-                      <dt className='col-span-3'>Tape-in</dt>
-                      <dd className='italic text-center'></dd>
-                      <dd className='text-right col-span-3'>{t('cost_basis')}</dd>
-                      <dt className='col-span-4'>Keratin Extensions</dt>
-                      <dd className='text-right col-span-3'>{t('cost_basis')}</dd>
-                    </dl>
-                  </div>
-                  <div className='flex-1 space-y-6'>
-                    <div className='relative inline-block 2xl:-translate-x-[3rem]'>
-                      <h3 className='font-serif text-xl text-primary md:text-2xl lg:text-2xl xl:text-3xl !leading-[1.5]'>
-                        {t('men')}
-                      </h3>
-                    </div>
-                    <dl className={cn('grid grid-cols-7 gap-x-2')}>
-                      <dt className='col-span-3'>Cut</dt>
+                      <dt className='col-span-3'>Styling</dt>
                       <dd className='italic text-center'>{t('from')}</dd>
-                      <dd className='text-right col-span-3'>95.-</dd>
-                      <dt className='col-span-3'>Color</dt>
-                      <dd className='italic text-center'>{t('from')}</dd>
-                      <dd className='text-right col-span-3'>65.-</dd>
+                      <dd className='text-right col-span-3'>£70</dd>
                     </dl>
                   </div>
                   <div className='flex-1 space-y-6'>
@@ -87,7 +64,7 @@ export default function ServicesPage() {
                         {t('under_25')}
                       </h3>
                     </div>
-                    <div>30% {t('discount')}</div>
+                    <div>20% {t('discount')}</div>
                   </div>
                 </div>
                 <div className='italic'>{t('all_prices_in_chf')}</div>

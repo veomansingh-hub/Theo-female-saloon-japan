@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://www.ananovotny.ch
+Host: https://www.roseandivy.example
 
 # Sitemaps
-Sitemap: https://www.ananovotny.ch/sitemap.xml
+Sitemap: https://www.roseandivy.example/sitemap.xml

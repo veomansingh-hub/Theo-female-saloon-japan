@@ -1,4 +1,4 @@
-const FALLBACK_WEBSITE_URL = 'https://www.ananovotny.ch'
+const FALLBACK_WEBSITE_URL = 'https://www.roseandivy.example'
 
 module.exports = {
   siteUrl: process.env.WEBSITE_URL || FALLBACK_WEBSITE_URL,

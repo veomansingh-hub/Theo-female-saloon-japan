@@ -3,7 +3,7 @@ import React, { ForwardedRef, forwardRef } from 'react'
 import cn from 'clsx'
 import Link from 'next/link'
 
-import { AnaNovotnyCSSAnimatedLogo, HairCSSAnimatedLogo } from '@/components/common/logo/index'
+import { RoseAndIvyCSSAnimatedLogo, HairCSSAnimatedLogo } from '@/components/common/logo/index'
 import useIsHome from '@/lib/hooks/useIsHome'
 
 type CSSAnimatedHeroLogoGroupProps = {
@@ -29,7 +29,7 @@ const CSSAnimatedLogoGroup = forwardRef(
         className={cn('w-full', { 'pointer-events-none': useIsHome() })}
       >
         <h1 className='flex flex-col items-center justify-center uppercase text-7xl'>
-          <AnaNovotnyCSSAnimatedLogo
+          <RoseAndIvyCSSAnimatedLogo
             className='w-full mb-2'
             triggered={triggered}
             delay={delay + 1000}

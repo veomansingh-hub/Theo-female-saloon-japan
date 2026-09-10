@@ -27,4 +27,4 @@ export const CUSTOM_BOUNDS = {
   south: 47.1,
   west: 8.5,
 }
-export const MARKER_ICON_URL = '/images/ana_map_marker.svg'
+export const MARKER_ICON_URL = '/images/roseandivy_map_marker.svg'

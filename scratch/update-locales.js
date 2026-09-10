@@ -1,4 +1,6 @@
-{
+const fs = require('fs');
+
+const en = {
   "defaultTitle": "ROSE & IVY HAIR | Luxury Hair Salon in London",
   "titleTemplate": "%s | ROSE & IVY HAIR",
   "defaultDescription": "Premium women's hair salon in London. Experience our exclusive ambience, meticulous attention to detail, and luxury hair treatments. Book your appointment today.",
@@ -36,4 +38,7 @@
   "error_500_something_went_wrong_title": "An Error Occurred",
   "error_500_something_went_wrong_description": "An unexpected error occurred. Please try again later.",
   "book_now": "Book Appointment"
-}
+};
+
+fs.writeFileSync('public/locales/en/common.json', JSON.stringify(en, null, 2));
+fs.writeFileSync('public/locales/de/common.json', JSON.stringify(en, null, 2)); // Use English for the DE locale as well since it's a UK salon

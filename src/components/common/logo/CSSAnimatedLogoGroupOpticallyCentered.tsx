@@ -2,7 +2,7 @@ import React, { ForwardedRef, forwardRef } from 'react'
 
 import cn from 'clsx'
 
-import { AnaNovotnyCSSAnimatedLogo, HairCSSAnimatedLogo } from '@/components/common/logo/index'
+import { RoseAndIvyCSSAnimatedLogo, HairCSSAnimatedLogo } from '@/components/common/logo/index'
 
 type CSSAnimatedHeroLogoGroupProps = {
   className?: string
@@ -31,7 +31,7 @@ const CSSAnimatedLogoGroupOpticallyCentered = forwardRef(
       )}
     >
       <h1 className='relative flex flex-col items-center justify-center uppercase text-7xl'>
-        <AnaNovotnyCSSAnimatedLogo
+        <RoseAndIvyCSSAnimatedLogo
           className={cn('w-full', aNLogoClassName)}
           triggered={triggered}
           delay={delay}
