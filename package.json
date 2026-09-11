@@ -27,6 +27,12 @@
     "eslint": "next lint --fix --dir src",
     "prettier": "prettier -l \"./src/**/*.{js,jsx,ts,tsx,md}\""
   },
+  "resolutions": {
+    "@types/webxr": "0.5.19"
+  },
+  "overrides": {
+    "@types/webxr": "0.5.19"
+  },
   "dependencies": {
     "@14islands/r3f-scroll-rig": "8.13.1",
     "@juggle/resize-observer": "^3.4.0",
