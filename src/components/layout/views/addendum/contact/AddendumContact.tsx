@@ -71,6 +71,10 @@ const AddendumContact = memo(() => {
         <div className='flex flex-col justify-end w-full h-full text-xl font-medium landscape:text-lg md:!text-xl md:high-dpi:!text-base md:very-high-dpi:!text-sm md:justify-between items-between md:items-start space-y-6 landscape:space-y-3 md:!space-y-6 text-secondary md:max-w-[30vw] xl:max-w-2xl'>
           <Contact className='justify-between w-full pointer-events-auto xl:w-auto space-y-6 landscape:space-y-3 md:space-y-3 md:justify-start' />
           <OpeningHours className='w-full font-medium xl:w-96' />
+          
+          <div className="pt-8 text-sm md:text-base font-sans tracking-wide text-secondary/70 pointer-events-auto pb-4">
+            design build by Theomedia studio uk
+          </div>
         </div>
       </div>
       <div className='absolute inset-0 w-full h-full overflow-hidden'>
