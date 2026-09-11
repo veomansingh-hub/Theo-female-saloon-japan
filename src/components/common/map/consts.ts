@@ -1,9 +1,9 @@
-export const LAT = 47.3558919
-export const LNG = 8.5577706
-const LAT_CENTER_LARGE = 47.36
-const LAT_CENTER_SMALL = 47.36
-const LNG_CENTER_LARGE = 8.542
-const LNG_CENTER_SMALL = 8.547
+export const LAT = 51.5115
+export const LNG = -0.1432
+const LAT_CENTER_LARGE = 51.5115
+const LAT_CENTER_SMALL = 51.5115
+const LNG_CENTER_LARGE = -0.1500
+const LNG_CENTER_SMALL = -0.1432
 export const CENTER_LARGE = {
   lat: LAT_CENTER_LARGE,
   lng: LNG_CENTER_LARGE,
@@ -14,17 +14,17 @@ export const CENTER_SMALL = {
 }
 export const ZOOM_LARGE = 15
 export const ZOOM_SMALL = 14
-export const SWITZERLAND_BOUNDS = {
-  east: 10.4427014502,
-  north: 47.8308275417,
-  south: 45.7769477403,
-  west: 6.02260949059,
+export const UK_BOUNDS = {
+  east: 1.768,
+  north: 60.85,
+  south: 49.88,
+  west: -8.65,
 }
 
 export const CUSTOM_BOUNDS = {
-  east: 8.6,
-  north: 47.6,
-  south: 47.1,
-  west: 8.5,
+  east: -0.05,
+  north: 51.6,
+  south: 51.4,
+  west: -0.25,
 }
 export const MARKER_ICON_URL = '/images/roseandivy_map_marker.svg'

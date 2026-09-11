@@ -57,7 +57,7 @@ const PortalWebGL = ({
       texture={texture}
       depthTexture={depthTexture}
       maskTexture={maskTexture}
-      faux3D={!isSmallPortraitScreen}
+      faux3D={false}
       zoom={isSmallPortraitScreen ? 2.0 : 1.5}
       zoomOrigin={isSmallPortraitScreen ? [0.5, 0.2] : [0.5, 0.5]}
       {...props}
