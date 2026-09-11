@@ -7,6 +7,9 @@
   },
   "license": "MIT",
   "private": true,
+  "engines": {
+    "node": "20.x"
+  },
   "homepage": "https://github.com/gnovotny/anahair",
   "repository": {
     "type": "git",
