@@ -39,15 +39,15 @@ const Meta = () => (
     <link
       rel='mask-icon'
       href='/icons/safari-pinned-tab.svg?v=2'
-      color='#233347'
+      color='#1C3326'
     />
     <meta
       name='msapplication-TileColor'
-      content='#2b5797'
+      content='#1C3326'
     />
     <meta
       name='theme-color'
-      content='#cccac0'
+      content='#F8F5F0'
     />
   </NextHead>
 )

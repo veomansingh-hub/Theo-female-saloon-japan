@@ -25,11 +25,27 @@ module.exports = {
         tertiary: 'var(--tertiary)',
         quaternary: 'var(--quaternary)',
         quinary: 'var(--quinary)',
+        cream: 'var(--cream)',
+        'soft-beige': 'var(--soft-beige)',
+        'rose-gold': 'var(--rose-gold)',
+        'ivy-green': 'var(--ivy-green)',
+        'midnight-ivy': 'var(--midnight-ivy)',
       },
       textColor: {
         primary: 'var(--text-primary)',
         secondary: 'var(--text-secondary)',
+        tertiary: 'var(--text-tertiary)',
+        quaternary: 'var(--text-quaternary)',
+        quinary: 'var(--text-quinary)',
+        special: 'var(--text-special)',
       },
+      letterSpacing: {
+        'widest-lux': '0.15em',
+        'widest-ultra': '0.25em',
+      },
+      transitionTimingFunction: {
+        'lux-ease': 'cubic-bezier(0.77, 0, 0.175, 1)',
+      }
     },
   },
 }

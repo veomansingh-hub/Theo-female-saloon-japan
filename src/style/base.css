@@ -1,30 +1,35 @@
 :root {
-  --primary: var(--pearly-white);
-  --secondary: var(--repose-gray);
-  --tertiary: var(--debonair);
-  --quaternary: var(--naval);
-  --quinary: var(--dovetail-lighter);
-  --text-primary: var(--naval);
-  --text-secondary: var(--pearly-white);
-  --text-tertiary: var(--repose-gray);
-  --text-quaternary: var(--debonair);
-  --text-quinary: var(--quinary);
-  --text-special: #676767;
-  --text-link: var(--naval);
-  --selection: var(--pearly-white);
-  --selection-bg: var(--naval);
+  /* Luxury Color Palette */
+  --cream: #F8F5F0;
+  --soft-beige: #EBE5D9;
+  --rose-gold: #C2A58D;
+  --ivy-green: #1C3326;
+  --midnight-ivy: #0E1A13;
 
-  --repose-gray: #cccac0;
-  --pearly-white: #ede3d8;
-  --debonair: #8da0a8;
-  --naval: #233347;
-  --dovetail: #928b81;
-  --dovetail-lighter: #aba9a5;
+  /* Theme Mapping */
+  --primary: var(--cream);
+  --secondary: var(--soft-beige);
+  --tertiary: var(--rose-gold);
+  --quaternary: var(--ivy-green);
+  --quinary: var(--midnight-ivy);
+  
+  /* Text Mapping */
+  --text-primary: var(--ivy-green);
+  --text-secondary: var(--cream);
+  --text-tertiary: var(--soft-beige);
+  --text-quaternary: var(--rose-gold);
+  --text-quinary: var(--midnight-ivy);
+  --text-special: #5A6D61;
+  --text-link: var(--ivy-green);
+  
+  /* Selections */
+  --selection: var(--cream);
+  --selection-bg: var(--ivy-green);
 
   --font-apercu: 'Jost', -apple-system, system-ui, BlinkMacSystemFont, 'Helvetica Neue',
     'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
     'Segoe UI Symbol';
-  --font-reckless: 'Playfair Display', -apple-system, system-ui, BlinkMacSystemFont, 'Helvetica Neue',
+  --font-reckless: 'Cormorant Garamond', -apple-system, system-ui, BlinkMacSystemFont, 'Helvetica Neue',
   'Helvetica', sans-serif;
 
   --font-serif: var(--font-reckless);
